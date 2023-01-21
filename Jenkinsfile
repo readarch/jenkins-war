@@ -1,4 +1,5 @@
-node {
+pipeline {
+   agent any
 
    def tomcatWeb = '/Users/renzo.araos/Globant/03-Servers/apache-tomcat-10.0.27/webapps'
    def tomcatBin = '/Users/renzo.araos/Globant/03-Servers/apache-tomcat-10.0.27/bin'
